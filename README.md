@@ -19,7 +19,7 @@ The architecture presented below is sectioned in four mayor areas: SQL Database,
 The proposed solution was constructed on Python and CSS and all the documentation is placed here.
 In this github you could find the following archives:
 
-1. Creation and connection - database.py: Contains the procedure to connect the project back with the SQL Google Cloud database.
-2. Methods.py: Contains the used methods any time an request is submitted.
-3. fast-kiln-353017-c44d6cb4bcdd.json: Contains the Google credentials. It satisfies a security procedure.
-4. Finalized_Model.sav: It stores the NLP used model.
+1. _Creation and connection - database.py_: Contains the procedure to connect the project back with the SQL Google Cloud database.
+2. _Methods.py_: Contains the used methods any time an request is submitted.
+3. _fast-kiln-353017-c44d6cb4bcdd.json_: Contains the Google credentials. It satisfies a security procedure.
+4. _Finalized_Model.sav_: It stores the NLP used model.

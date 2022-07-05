@@ -23,3 +23,4 @@ In this github you could find the following archives:
 2. _Methods.py_: Contains the used methods any time an request is submitted.
 3. _fast-kiln-353017-c44d6cb4bcdd.json_: Contains the Google credentials. It satisfies a security procedure.
 4. _Finalized_Model.sav_: It stores the NLP used model.
+5. _TF_IDF_PQRs_SVM.py_: Contains the tried models and the comparison between the accuracy of each them.

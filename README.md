@@ -24,3 +24,8 @@ In this github you could find the following archives:
 3. _fast-kiln-353017-c44d6cb4bcdd.json_: Contains the Google credentials. It satisfies a security procedure.
 4. _Finalized_Model.sav_: It stores the NLP used model.
 5. _TF_IDF_PQRs_SVM.py_: Contains the tried models and the comparison between the accuracy of each them.
+6. Consumption/Google_Email.js: Contains the JavaScript code to send mails.
+7. Consumption/index.html: The form webpage.
+8. Consumption/Page 1 - Dashboard: app.py, dashboard.html, procfile, requirements.txt, runtime.txt, table.css
+9. Consumption/Page_2 Model: contains: assets, app.py, df_training_translated.xlsx, model.html. procfile, requirements.txt
+

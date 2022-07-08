@@ -1,0 +1,255 @@
+html {
+  margin-top: 6vh;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 55px;
+  color: #960101;
+  font-weight: Bold;
+  margin: 8px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  color: #960101;
+  font-weight: Bold;
+  margin: 8px;
+  padding-bottom: 10px;
+}
+
+.previous-next-container {
+  color: red;
+  display: block;
+}
+
+#the_title {
+  font-size: 4vh;
+  color: #fff;
+  font-weight: Bold;
+  margin: 1vh;
+  padding-bottom: 0.5vh;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1090;
+}
+
+.button_1 {
+    padding: 10px 30px;
+    border: solid !important;
+    border-radius: 10px;
+    border-color: #891A11 !important;
+    background: #fff;
+    font-size: 16px;
+    color: #891A11;
+    cursor: pointer;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.button_1:hover {
+    background: #891A11;
+    color: #fff;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.button_2 {
+    padding: 10px 30px;
+    border: solid !important;
+    border-radius: 10px;
+    border-color: #891A11 !important;
+    background: #fff;
+    font-size: 16px;
+    color: #891A11;
+    cursor: pointer;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.button_2:hover {
+    background: #891A11;
+    color: #fff;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+#my_button {
+    margin-top: -55px !important;
+    position:absolute;
+}
+
+#my_button_2 {
+    margin-top: -55px !important;
+    margin-left: 120px;
+    position:absolute;
+}
+
+.the-card{
+  max-width: 50vw !important;
+}
+
+
+/* ---------------------- NAVBAR ---------------------- */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #960101;
+  overflow: hidden;
+  position: fixed;
+  text-decoration: none;
+  height: 6.5vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav_logo_1 {
+  float: left !important;
+}
+
+.logo_1 {
+  height: 5vh !important;
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+}
+
+.nav_logo_2 {
+  float: right !important;
+}
+
+.logo_2 {
+  height: 1.5vh !important;
+  padding-top: 2.5vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #720203;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.dash-table-container {
+  margin-bottom: 60px;
+    border: #69120B solid 2px !important;
+}
+
+.table-with-paggination {
+  display: block;
+}
+
+
+#estados_pie{
+    border: #69120B solid 2px !important;
+    height: 388px !important;
+}
+
+#tipos_pie{
+    border: #69120B solid 2px !important;
+    height: 388px !important;
+}
+
+@media only screen and (max-width: 420px) {
+  .buscadores {
+    display: block;
+    align-items: middle;
+    width: 100%;
+  }
+
+  #input_no_doc {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  #input_tipo_doc {
+    height: 25px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .charts_1 {
+    height: 10vh;
+    width: 10wh !important;
+    display: block;
+    align-items: top;
+  }
+    
+  #the_title {
+    font-size: 2vh;
+    padding-top: 1.2vh;
+  }
+}
+
+
+@media only screen and (max-width: 776px) {
+  .buscadores {
+    display: block;
+    align-items: middle;
+    width: 100%;
+  }
+
+  #input_no_doc {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  #input_tipo_doc {
+    height: 25px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .charts_1 {
+    height: 10vh;
+    width: 10wh !important;
+    display: block;
+    align-items: top;
+  }
+}
+
+@media only screen and (min-width: 777px) {
+  .charts_1 {
+    height: 10vh;
+    display: flex;
+    align-items: block;
+  }
+    
+     #estados_pie,
+  #tipos_pie {
+    height: 390px;
+  }
+}

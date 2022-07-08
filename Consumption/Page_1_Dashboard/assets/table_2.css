@@ -1,0 +1,167 @@
+/* Table Styles */
+
+.table-wrapper {
+  /* margin: 10px 70px 70px; */
+  width: 10wh !important;
+  /* box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 ); */
+}
+
+.table-limits{
+    height: 73vh !important;
+    border: #69120B solid 1px !important;
+}
+
+#fl-table {
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  border: none !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  white-space: nowrap !important;
+  background-color: white !important;
+  border: #69120B solid 2px !important;
+    
+}
+
+#fl-table td,
+#fl-table th {
+  text-align: center !important;
+  padding: 8px !important;
+  column-width: 55px !important;
+  overflow: hidden !important;
+}
+
+#fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 12px;
+}
+
+#fl-table thead th {
+  color: #ffffff !important;
+  background: #891a11 !important;
+  border: 1px #fff !important;
+}
+
+#fl-table thead th:nth-child(odd) {
+  color: #ffffff !important;
+  background: #69120b !important;
+  border-right: 1px solid #fff !important;
+  border-left: 1px solid #fff !important;
+}
+
+#fl-table tr:nth-child(even) {
+  background: #f8f8f8 !important;
+    overflow-wrap: break-word !important;
+}
+
+/* ------------------------- Pagination ------------------------- */
+.pagination {
+  text-align: center;
+}
+
+.pagination ul{
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.pagination li{
+  display: inline;  
+  text-decoration: none;
+  padding: 8px 16px;
+    font-weight: bold;
+}
+
+.pagination li.active {
+  background-color: #891910;
+  color: white;
+  padding: 8px 16px; 
+  border-radius: 5px;
+}
+
+.pagination a{
+  text-decoration: none;
+  color: black;
+    font-weight: bold;
+}
+
+.pagination li:hover:not(.active) {
+    background-color: #ddd;
+      border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* ------------------------- Responsive ------------------------- */
+/* ------------------------- Responsive ------------------------- */
+/* ------------------------- Responsive ------------------------- */
+/* ------------------------- Responsive ------------------------- */
+@media (max-width: 777px) {
+  #fl-table {
+    display: block !important;
+    width: 100% !important;
+  }
+  .table-wrapper:before {
+    content: "Scroll horizontally >";
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    color: white;
+    padding: 0 0 10px;
+  }
+  #fl-table thead,
+  #fl-table tbody,
+  #fl-table thead th {
+    display: block !important !important;
+  }
+  #fl-table thead th:last-child {
+    border-bottom: none !important;
+  }
+  #fl-table thead {
+    float: left !important;
+  }
+  #fl-table tbody {
+    width: auto;
+    position: relative !important;
+    overflow-x: auto !important;
+  }
+  #fl-table td,
+  #fl-table th {
+    padding: 20px 0.625em 0.625em 0.625em !important;
+    height: 60px !important;
+    vertical-align: middle !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    width: 120px !important;
+    font-size: 13px !important;
+    text-overflow: ellipsis;
+  }
+  #fl-table thead th {
+    text-align: left !important;
+    border-bottom: 1px solid #f7f7f9 !important;
+  }
+  #fl-table tbody tr {
+    display: table-cell !important;
+  }
+  #fl-table tbody tr:nth-child(odd) {
+    background: none !important;
+  }
+  #fl-table tr:nth-child(even) {
+    background: transparent !important;
+  }
+  #fl-table tr td:nth-child(odd) {
+    background: #f8f8f8 !important;
+    border-right: 1px solid #e6e4e4 !important;
+    width: 40vw !important;
+  }
+  #fl-table tr td:nth-child(even) {
+    border-right: 1px solid #e6e4e4 !important;
+  }
+  #fl-table tbody td {
+    display: block !important;
+    text-align: center
+  }
+}
